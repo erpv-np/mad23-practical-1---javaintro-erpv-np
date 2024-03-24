@@ -24,7 +24,8 @@ public class Question2
     }
 
     // Function to calculate BMI
-    public static double calculateBMI(double height, double weight) {
+    public static double calculateBMI(double height, double weight) 
+    {
       return weight / (height * height);
     }
   }

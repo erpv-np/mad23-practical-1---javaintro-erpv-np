@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Question4
 {
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+  {
       Scanner in = new Scanner(System.in);
 
       // Prompt user to enter an integer
@@ -10,9 +11,11 @@ public class Question4
       int baseSize = in.nextInt();
 
       // Print the right angle triangle
-      for (int i = 1; i <= baseSize; i++) {
+      for (int i = 1; i <= baseSize; i++) 
+      {
           // Inner loop to print '*' characters
-          for (int j = 1; j <= i; j++) {
+          for (int j = 1; j <= i; j++) 
+          {
               System.out.print("* ");
           }
           System.out.println(); // Move to the next line after printing each row
