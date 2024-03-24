@@ -18,7 +18,7 @@ public class Question4 {
         Scanner in = new Scanner(System.in);
 
         // Prompt user to enter the size of the base of the triangle
-        System.out.print("Enter the size of the base of the triangle: ");
+        //System.out.print("Enter the size of the base of the triangle: ");
         int baseSize = in.nextInt();
 
         // Print the right angle triangle
