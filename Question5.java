@@ -5,14 +5,14 @@ public class Question5 {
       Scanner scanner = new Scanner(System.in);
 
       // Prompt user for the number of integers
-      System.out.print("Enter the number of integers: ");
+      //System.out.print("Enter the number of integers: ");
       int count = scanner.nextInt();
 
       int[] numbers = new int[count];
 
       // Prompt user to enter integers
       for (int i = 0; i < count; i++) {
-          System.out.print("Enter an integer: ");
+          //System.out.print("Enter an integer: ");
           numbers[i] = scanner.nextInt();
       }
 
@@ -20,7 +20,7 @@ public class Question5 {
       int mode = findMode(numbers);
 
       // Print out the mode
-      System.out.println("Mode: " + mode);
+      System.out.println(mode);
 
       scanner.close();
   }
