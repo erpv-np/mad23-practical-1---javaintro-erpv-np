@@ -18,6 +18,10 @@ public class Question2
     System.out.print("Enter your height in meters: ");
     double height = in.nextDouble();
 
+     // Prompt user for weight in kg
+     System.out.print("Enter your weight in kilogram: ");
+     double weight = in.nextDouble();
+
      // Calculate BMI
      double bmi = calculateBMI(height, weight);
 
